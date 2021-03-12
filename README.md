@@ -29,19 +29,19 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 ### Task 1: Project Setup
 
 #### Repo Setup
-* [ ] Fork and clone this repository.
-* [ ] Create a new working branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
-* [ ] **RUN** `npm install` to install your dependencies.
-* [ ] **RUN** `npm start` to start your application.
-- [ ] In another terminal window, **RUN** `npm test` to start your test runner. (It is recommended you do this only when actually building tests - any change in your app will make the tests run, and that could eat up your computer power)
+* [x] Fork and clone this repository.
+* [x] Create a new working branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
+* [x] **RUN** `npm install` to install your dependencies.
+* [x] **RUN** `npm start` to start your application.
+- [x] In another terminal window, **RUN** `npm test` to start your test runner. (It is recommended you do this only when actually building tests - any change in your app will make the tests run, and that could eat up your computer power)
 
 ### Task 2: CodeGrade Setup
-* [ ] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
-* [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
-* [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
-* [ ] Check to see that Codegrade has accepted your git submission.
+* [x] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
+* [x] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
+* [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
+* [x] Check to see that Codegrade has accepted your git submission.
 
 ### Task 3: Project Requirements
 
@@ -125,20 +125,18 @@ test("displays plants in cart", () => {
 
 ## Submission format
 
-* [ ] Submit via Codegrade by commiting and pushing any new changes.
-* [ ] Submit a pull-request to merge <firstName-lastName> branch into main. **Please don't merge your own pull request and make sure you are on your own repo**
-* [ ] Check codegrade for automated feedback.
-* [ ] Check codegrade on Monday following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
-* [ ] Any changes pushed to your <firstName-lastName> branch will resubmited to codegrade if pushed before the sprint challenge deadline. Changes after the deadline will not be reviewed.
+* [x] Submit via Codegrade by commiting and pushing any new changes.
+* [x] Submit a pull-request to merge <firstName-lastName> branch into main. **Please don't merge your own pull request and make sure you are on your own repo**
+* [x] Check codegrade for automated feedback.
+* [x] Check codegrade on Monday following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
+* [x] Any changes pushed to your <firstName-lastName> branch will resubmited to codegrade if pushed before the sprint challenge deadline. Changes after the deadline will not be reviewed.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
+~ Answers in interview_questions.md
 1. What are the main differences between a stateful and a functional component?
-
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
-
 3. Define stateful logic.
-
 4. What are the three step of creating a successful test? What is done in each phase?

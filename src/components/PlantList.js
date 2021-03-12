@@ -13,7 +13,7 @@ export default class PlantList extends Component {
   // we use this.setState() instead of manually this.state.plants for immutability reasons
   componentDidMount() {
     axios.get('http://localhost:3333/plants').then(res => {
-      this.setState({ plants: res.data.plantsData });
+      this.setState({ plants: res.data });
     })
   }
 
@@ -30,8 +30,8 @@ export default class PlantList extends Component {
               <p>{plant.description}</p>
               <div className="plant-bottom-row">
                 <p>${plant.price}</p>
-                <p>☀️ {plant.light}</p>
-                <p>💦 {plant.watering}x/month</p>
+                <p><span role="img" aria-label='img3'>☀️</span> {plant.light}</p>
+                <p><span role="img" aria-label='img4'>💦</span> {plant.watering}x/month</p>
               </div>
               <button
                 className="plant-button"
